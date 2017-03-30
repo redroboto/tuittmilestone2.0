@@ -1,0 +1,155 @@
+a:hover,.menu ul li a:hover{
+	color: #ec5606;
+	text-decoration: none;
+}
+nav {
+	font-family: 'Josefin Sans', sans-serif;
+	margin-bottom: 0;
+}
+.navbar-inverse {
+	margin-bottom: 0;
+}
+.navbar-right {
+	margin-right: 15px;
+}
+.form-group .form-control {
+	width: 300px;
+}
+.middle-banner {
+	height: 18vw;
+	background: url(../img/cura-V2.png);
+	background-position: center;
+	margin-bottom: 15px;
+}
+.banner h3 {
+	font-family: 'Libre Baskerville', serif;
+}
+.banner .left-banner h3 {
+	float: right;
+	padding-top: 100px;
+}
+.banner .right-banner h3 {
+	float: left;
+	padding-top: 100px;
+}
+div.menu {
+	border-bottom: 1px solid #222;
+	margin-bottom: 10px;
+}
+.menu div {
+	margin: auto;
+	width: 70vw;
+}
+.menu div>ul li {
+	float: left;
+	padding: 10px 15px;
+	list-style: none;
+	font-size: 18px;
+}
+.menu ul li a {
+	color: #333;
+	font-family: 'Roboto', sans-serif;
+}
+.carousel-inner .item img {
+	height: 374px;
+	width: 100%;
+}
+.sign-up-div {
+	margin: auto;
+}
+.sign-up input {
+	width: 250px;
+}
+.sign-up {
+	margin-bottom: 20px;
+}
+.bg-about {
+	background: url(../img/mountain-3.jpg);
+	background-position: center;
+	height: 50vw;
+	color: #fff; 
+	font-size: 20px;
+}
+.bg-about div h3, .bg-about div p {
+	padding-left: 20px;
+}
+.about-text {
+	margin-top: 15%;
+}
+.logo {
+	font-size: 150px;
+}
+footer {
+	background-color: #222;
+	color: #9d9d9d;
+	font-family: 'Josefin Sans', sans-serif;
+}
+footer li a, .fa-3x{
+	color: #9d9d9d;
+}
+footer li {
+	list-style: none;
+	padding-bottom: 10px;
+}
+footer ul {
+	padding-left: 0;
+}
+.footer-2 {
+	font-size: 10px;
+}
+li.dropdown div.dropdown-menu {
+	width: 200px;
+}
+li.dropdown div.dropdown-menu a {
+	padding-top: 10px;
+	padding-left: 10px;
+	display: block;
+}
+li.dropdown:hover div.dropdown-menu {
+	display: block;
+}
+.items-img {
+	height: 200px;
+}
+.items-container {
+  position: relative;
+  margin-top: 50px;
+  min-height: 300px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*color: grey;*/
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.items-container:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
+.details {
+  position: absolute;
+  width: 100%;
+  left:0;
+  top: 50%;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.details a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+}
+
+.items-container:hover .details {
+  opacity: 1;
+}
