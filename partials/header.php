@@ -51,7 +51,7 @@ if(isset($_SESSION['message'])){
     		}
     	 ?>
 
-    	<li><a href="cart.php">Cart</a></li>	 
+    	<li><a href="cart.php">See My Cart</a></li>	 
     </ul>
 
     <?php
@@ -85,35 +85,46 @@ if(isset($_SESSION['message'])){
 <!-- main nav -->
 
 <div class="menu row text-center">
-	<div>
-		<ul>
-		    <li class="dropdown">
-				<a href="items.php?cid=1" class="dropdown-toggle" data-toggle="dropdown">Skin Care</a>
-				<span class="caret"></span>
-				<!-- dropdown menu on display hidden -->
-				<div class="dropdown-menu">
-					<a href="items.php?sid=1">Facial Cleanser & Scrub</a>
-					<a href="items.php?sid=2">Sun Care</a>
-					<a href="items.php?sid=3">Toner/Moisturizer</a>
-					<a href="items.php?sid=4">Eye Care</a>
-				</div>
-			</li>
-			<li class="dropdown">
-				<a href="items.php?cid=2" class="dropdown-toggle" data-toggle="dropdown">Hair & Body</a>
-				<span class="caret"></span>
-				<!-- dropdown menu on display hidden -->
-				<div class="dropdown-menu">
-					<a href="items.php?sid=5">Shampoo & Conditioner</a>
-					<a href="items.php?sid=6">Body Wash</a>
-					<a href="items.php?sid=7">Moisturizers</a>
-					<a href="items.php?sid=8">Deodorants</a>
-				</div>
-			</li>
-			<li><a href="items.php?cid=3">Scents</a></li>
-			<li><a href="items.php?cid=4">Grooming Essentials</a></li>
-			<li><a href="#">Best Sellers</a></li>
-			<li><a href="#">On Sale</a></li>
-			<li><a href="about.php#aboutcura">About Cura</a></li>
-		</ul>
-	</div>	
+	<nav class="navbar navbar-default">
+		<div>
+			<div class="navbar-header">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span> 
+			    </button>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul id="myNavbar">
+				    <li class="dropdown">
+						<a href="items.php?cid=1" class="dropdown-toggle" data-toggle="dropdown">Skin Care</a>
+						<span class="caret"></span>
+						<!-- dropdown menu on display hidden -->
+						<div class="dropdown-menu">
+							<a href="items.php?sid=1">Facial Cleanser & Scrub</a>
+							<a href="items.php?sid=2">Sun Care</a>
+							<a href="items.php?sid=3">Toner/Moisturizer</a>
+							<a href="items.php?sid=4">Eye Care</a>
+						</div>
+					</li>
+					<li class="dropdown">
+						<a href="items.php?cid=2" class="dropdown-toggle" data-toggle="dropdown">Hair & Body</a>
+						<span class="caret"></span>
+						<!-- dropdown menu on display hidden -->
+						<div class="dropdown-menu">
+							<a href="items.php?sid=5">Shampoo & Conditioner</a>
+							<a href="items.php?sid=6">Body Wash</a>
+							<a href="items.php?sid=7">Moisturizers</a>
+							<a href="items.php?sid=8">Deodorants</a>
+						</div>
+					</li>
+					<li><a href="items.php?cid=3">Scents</a></li>
+					<li><a href="items.php?cid=4">Grooming Essentials</a></li>
+					<li><a href="#">Best Sellers</a></li>
+					<li><a href="#">On Sale</a></li>
+					<li><a href="about.php#aboutcura">About Cura</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 </div>

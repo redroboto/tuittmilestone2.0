@@ -33,7 +33,7 @@ nav {
 	padding-top: 100px;
 }
 div.menu {
-	border-bottom: 1px solid #222;
+	/*border-bottom: 1px solid #222;*/
 	margin-bottom: 10px;
 }
 .menu div {
@@ -152,4 +152,9 @@ li.dropdown:hover div.dropdown-menu {
 
 .items-container:hover .details {
   opacity: 1;
+}
+@media only screen and (max-width: 1330px) {
+	/*.carousel-wrapper {
+		display: none;
+	}*/
 }

@@ -25,7 +25,7 @@ $result = mysqli_query($conn,$sql);
 
 <div class="container-fluid row">
 	<div class="col-md-2">
-		Sort
+		
 	</div>
 	<div class="col-md-10 clearfix">
 
